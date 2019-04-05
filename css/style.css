@@ -11,6 +11,13 @@ body {
 	font-family: 'Marck Script', serif;
 	font-size: 60px;
 }
+.date {
+ font-size: 12px;
+ margin: 0px;
+margin-top: 2px;
+ padding: 0px;
+ font-style: italic;
+}
 
 .line {
 	border: 0;
