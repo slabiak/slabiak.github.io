@@ -40,7 +40,7 @@ var actualQuestion;
 var answered = false;
 var mymap = L.map('mapid').setView([51.107883, 17.038538], 13);
 
-	L.tileLayer('https://tiles.wmflabs.org/osm-no-labels/${z}/${x}/${y}.png', {
+	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 	
